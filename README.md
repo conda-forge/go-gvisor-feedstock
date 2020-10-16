@@ -5,11 +5,13 @@ Home: https://gvisor.dev
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/go-gvisor-feedstock/blob/master/LICENSE.txt)
 
 Summary: Container Runtime Sandbox
 
+Development: https://github.com/google/gvisor
 
+Documentation: https://gvisor.dev/docs
 
 Current build status
 ====================
