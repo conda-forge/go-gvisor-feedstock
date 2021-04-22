@@ -2,4 +2,5 @@
 
 bazel build --test_output=errors --keep_going --verbose_failures=true //runsc:runsc
 mkdir ${PREFIX}/bin
+ls -a
 cp ./bazel-bin/runsc/linux_amd64_pure_stripped/runsc ${PREFIX}/bin
