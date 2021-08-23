@@ -1,5 +1,5 @@
 {% set name = "gvisor" %}
-{% set version = "20210720.0" %}
+{% set version = "20210816.0" %}
 
 package:
   name: go-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/google/{{ name }}/archive/release-{{ version }}.tar.gz
-  sha256: 597092ad771f61441cced6b9f404a6270cf5f5901204e65301ffd65b398d2b24
+  sha256: 476ab9105a6247862863d4078cd07c8a0b3dd776f92f6398eb9eca06c9a9d7e9
   patches:
     - syscalls_rmv_boottime.patch   # CLOCK_BOOTTIME is not a defined variable in time.h header of C Library in conda-forge. Remove from source code.
 
